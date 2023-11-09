@@ -1,0 +1,18 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  background-color: var(--color-green);
+}
+
+.HeaderInner {
+  width: 1200px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.HeaderLogo {
+  color: var(--color-white);
+  font-size: var(--font-lg);
+  font-weight: var(--font-bold);
+}
