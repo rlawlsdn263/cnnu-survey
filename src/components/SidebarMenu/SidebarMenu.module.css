@@ -6,4 +6,9 @@
   color: var(--color-white);
   font-size: var(--font-md);
   padding: 0 10px;
+  cursor: pointer;
+}
+
+.SidebarMenu:hover {
+  color: var(--color-green);
 }
