@@ -1,5 +1,6 @@
 .Body {
   display: flex;
   width: 1200px;
+  min-height: 100vh;
   margin: 0 auto;
 }

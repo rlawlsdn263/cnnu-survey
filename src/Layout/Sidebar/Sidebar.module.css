@@ -1,4 +1,5 @@
 .Sidebar {
   width: 200px;
+  min-height: 100vh;
   background-color: var(--color-black);
 }
