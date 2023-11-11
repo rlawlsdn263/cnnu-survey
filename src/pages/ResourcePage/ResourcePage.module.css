@@ -1,0 +1,32 @@
+.ResourcePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  font-size: var(--font-lg);
+  font-weight: var(--font-bold);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.contentBox {
+  width: 900px;
+  height: 250px;
+  padding: 20px;
+  background-color: var(--color-white);
+}
+
+.contentBox h3 {
+  font-size: var(--font-md-lg);
+  font-weight: var(--font-bold);
+  margin-bottom: 10px;
+}
+
+.contentBox p {
+  font-size: var(--font-regular);
+  font-weight: var(--font-md);
+  line-height: normal;
+}
