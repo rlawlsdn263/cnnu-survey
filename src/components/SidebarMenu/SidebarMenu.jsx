@@ -1,16 +1,15 @@
 import { useNavigate } from "react-router-dom";
 import styles from "./SidebarMenu.module.css";
 
-function SidebarMenu({ url, setActiveMenu, style, children }) {
+function SidebarMenu({ url, children }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    setActiveMenu(url);
     navigate(`/${url}`);
   };
 
   return (
-    <div className={styles.SidebarMenu} onClick={handleClick} style={style}>
+    <div className={styles.SidebarMenu} onClick={handleClick}>
       <span>{children}</span>
     </div>
   );
