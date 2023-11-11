@@ -13,19 +13,31 @@
 }
 
 .contentBox {
+  display: flex;
   width: 900px;
   height: 250px;
   padding: 20px;
   background-color: var(--color-white);
 }
 
-.contentBox h3 {
+.contentBox img {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.innerContainer h3 {
   font-size: var(--font-md-lg);
   font-weight: var(--font-bold);
   margin-bottom: 10px;
 }
 
-.contentBox p {
+.innerContainer p {
   font-size: var(--font-regular);
   font-weight: var(--font-md);
   line-height: normal;
