@@ -1,0 +1,5 @@
+.ContentBox {
+  width: 900px;
+  padding: 20px;
+  background-color: var(--color-white);
+}

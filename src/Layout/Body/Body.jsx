@@ -1,6 +1,6 @@
 import styles from "./Body.module.css";
-import { default as Main } from "./Main/Main";
-import { default as Sidebar } from "./Sidebar/Sidebar";
+import { default as Main } from "../Main/Main";
+import { default as Sidebar } from "../Sidebar/Sidebar";
 
 function Body() {
   return (

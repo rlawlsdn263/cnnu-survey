@@ -6,8 +6,10 @@
   --color-green: #42ad88;
 
   /* font-size */
+  --font-md: 16px;
   --font-lg: 24px;
 
   /* font-weight */
   --font-bold: 700;
+  --font-regular: 400;
 }
