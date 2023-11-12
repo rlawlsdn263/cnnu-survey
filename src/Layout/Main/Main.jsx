@@ -6,8 +6,8 @@ function Main() {
   return (
     <div className={styles.Main}>
       <Routes>
-        <Route path="/" element={<DashBoardPage />} />
-        <Route path="/resource" element={<ResourcePage />} />
+        <Route path="/cnnu-survey" element={<DashBoardPage />} />
+        <Route path="/cnnu-survey/resource" element={<ResourcePage />} />
       </Routes>
     </div>
   );
